@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Weird Piano</title>
+    <meta name="author" content="Mark Crocker">
+    <meta name="description" content="weird Piano">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="icon" type="image/x-icon" href="icons/piano.png" />
+</head>
+
+<body>
+    <header>
+        <h1>Mark's Piano!</h1>
+    </header>
+    <main>
+        <div id="piano_frame">
+            <div id="speaker_left"></div> 
+            <div id="control"></div>
+            <div id="piano_keys">
+                <div data-note="c_note" id="c" class="natural_keys"><button accesskey="a" onclick="playNoteC()" class="white_key"></button></div>
+                <div id="c_sharp" class="sharp_keys"><button accesskey="w" onclick="playNoteCsharp()" class="black_key"></button></div>
+                <div id="d" class="natural_keys"><button onclick="playNoteD()" class="white_key"></button></div>
+                <div id="d_sharp" class="sharp_keys"><button onclick="playNoteDsharp()" class="black_key"></button></div>
+                <div id="e" class="natural_keys"><button onclick="playNoteE()" class="white_key"></button></div>
+                <div id="f" class="natural_keys"><button onclick="playNoteF()" class="white_key"></button></div>
+                <div id="f_sharp" class="sharp_keys"><button onclick="playNoteFsharp()" class="black_key"></button></div>
+                <div id="g" class="natural_keys"><button onclick="playNoteG()" class="white_key"></button></div>
+                <div id="g_sharp" class="sharp_keys"><button onclick="playNoteGsharp()" class="black_key"></button></div>
+                <div id="a" class="natural_keys"><button onclick="playNoteA()" class="white_key"></button></div>
+                <div id="a_sharp" class="sharp_keys"><button onclick="playNoteAsharp()" class="black_key"></button></div>
+                <div id="b" class="natural_keys"><button onclick="playNoteB()" class="white_key"></button></div>    
+                <div id="c2" class="natural_keys"><button onclick="playNoteC2()" class="white_key"></button></div>
+                <div id="c2_sharp" class="sharp_keys"><button onclick="playNoteC2sharp()" class="black_key"></button></div>
+                <div id="d2" class="natural_keys"><button onclick="playNoteD2()" class="white_key"></button></div>
+                <div id="d2_sharp" class="sharp_keys"><button onclick="playNoteD2sharp()" class="black_key"></button></div>
+                <div id="e2" class="natural_keys"><button onclick="playNoteE2()" class="white_key"></button></div>
+                <div id="f2" class="natural_keys"><button onclick="playNoteF2()" class="white_key"></button></div>
+                <div id="f2_sharp" class="sharp_keys"><button onclick="playNoteF2sharp()" class="black_key"></button></div>
+                <div id="g2" class="natural_keys"><button onclick="playNoteG2()" class="white_key"></button></div>
+                <div id="g2_sharp" class="sharp_keys"><button onclick="playNoteG2sharp()" class="black_key"></button></div>
+                <div id="a2" class="natural_keys"><button onclick="playNoteA2()" class="white_key"></button></div>
+                <div id="a2_sharp" class="sharp_keys"><button onclick="playNoteA2sharp()" class="black_key"></button></div>
+                <div id="b2" class="natural_keys"><button onclick="playNoteB2()" class="white_key"></button></div>     
+            </div>
+            <div id="speaker_right"></div>
+        </div>
+        <audio id="c_note" src="audio/c1_key.wav"></audio>
+        <audio id="c_sharp_note" src="audio/c1_sharp_key.wav"></audio>
+        <audio id="d_note" src="audio/d1_key.wav"></audio>
+        <audio id="d_sharp_note" src="audio/d1_sharp_key.wav"></audio>
+        <audio id="e_note" src="audio/e1_key.wav"></audio>
+        <audio id="f_note" src="audio/f1_key.wav"></audio>
+        <audio id="f_sharp_note" src="audio/f1_sharp_key.wav"></audio>
+        <audio id="g_note" src="audio/g1_key.wav"></audio>
+        <audio id="g_sharp_note" src="audio/g1_sharp_key.wav"></audio>
+        <audio id="a_note" src="audio/a1_key.wav"></audio>
+        <audio id="a_sharp_note" src="audio/a1_sharp_key.wav"></audio>
+        <audio id="b_note" src="audio/b1_key.wav"></audio>
+        <audio id="c2_note" src="audio/c2_key.wav"></audio>
+        <audio id="c2_sharp_note" src="audio/c2_sharp_key.wav"></audio>
+        <audio id="d2_note" src="audio/d2_key.wav"></audio>
+        <audio id="d2_sharp_note" src="audio/d2_sharp_key.wav"></audio>
+        <audio id="e2_note" src="audio/e2_key.wav"></audio>
+        <audio id="f2_note" src="audio/f2_key.wav"></audio>
+        <audio id="f2_sharp_note" src="audio/f2_sharp_key.wav"></audio>
+        <audio id="g2_note" src="audio/g2_key.wav"></audio>
+        <audio id="g2_sharp_note" src="audio/g2_sharp_key.wav"></audio>
+        <audio id="a2_note" src="audio/a2_key.wav"></audio>
+        <audio id="a2_sharp_note" src="audio/a2_sharp_key.wav"></audio>
+        <audio id="b2_note" src="audio/b2_key.wav"></audio>
+    </main>
+    <footer><br><br>
+        <div id="icon_link">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    </footer>
+    <script type="text/javascript" src="scrip.js"></script>
+</body>
+
+</html>

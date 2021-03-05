@@ -1,0 +1,197 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: black;
+    color: white;
+    font-size: 1.6rem;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    position: fixed;
+    top: 10%;
+    left: 45%;
+    text-align: center;
+    justify-content: center;
+}
+
+div {
+    border: 1px white solid;
+}
+
+#piano_frame {
+    background-image: url('pics/logs.jpg');
+    background-size: cover;
+    position: relative;
+    margin: auto;
+    height: 50rem;
+    width: 100rem;
+}
+
+#control {
+    margin: auto;
+    width: 75rem;
+    height: 24rem;
+    position: relative;
+}
+
+#piano_keys {
+    position: relative;
+    margin: auto;
+    width: 70rem;
+    height: 25.32rem;
+}
+
+.natural_keys, .sharp_keys {
+    position: absolute;
+}
+
+.natural_keys {
+    border: .1rem black solid;
+    border-radius: 5%;   
+    z-index: 1;
+    height: 22rem;
+    width: 5rem;
+    background-color: white;
+ }
+
+.sharp_keys {
+    background-color: black;
+    z-index: 2;
+    height: 10rem;
+    width: 3rem;
+    border-radius: 5%;
+ }
+/* This is the button hiding in the white keys*/
+.white_key {
+    background-color: white;
+    height: 22rem;
+    width: 5rem;
+}
+
+.black_key {
+    background-color: black;
+    height: 10rem;
+    width: 3rem;
+}
+
+
+button {
+    padding: 0;
+    border-radius: 5%;
+    margin: 0;
+    cursor: pointer;
+    z-index: -1;
+}
+
+#c {
+    left: 0;
+}
+
+#c_sharp {
+    left: 3.5rem;
+}
+
+#d {
+    left: 5rem;
+}
+
+#d_sharp {
+    left: 8.5rem;
+}
+
+#e {
+    left: 10rem;
+}
+
+#f {
+    left: 15rem;
+}
+
+#f_sharp {
+    left: 18.5rem;
+}
+
+#g {
+    left: 20rem;
+}
+
+#g_sharp {
+    left: 23.5rem;
+}
+
+#a {
+    left: 25rem;
+}
+
+#a_sharp {
+    left: 28.5rem;
+}
+
+#b {
+    left: 30rem;
+}
+
+#c2 {
+    left: 35rem;
+}
+
+#c2_sharp {
+    left: 38.5rem;
+}
+
+#d2 {
+    left: 40rem;
+}
+
+#d2_sharp {
+    left: 43.5rem;
+}
+
+#e2 {
+    left: 45rem;
+}
+
+#f2 {
+    left: 50rem;
+}
+
+#f2_sharp {
+    left: 53.5rem;
+}
+
+#g2 {
+    left: 55rem;
+}
+
+#g2_sharp {
+    left: 58.5rem;
+}
+
+#a2 {
+    left: 60rem;
+}
+
+#a2_sharp {
+    left: 63.5rem;
+}
+
+#b2 {
+    left: 65rem;
+}
+
+#icon_link {
+    position: fixed;
+    top: 75%;
+}
+
